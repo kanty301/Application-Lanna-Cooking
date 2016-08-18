@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kan.lannacooking.MainActivity">
+    tools:context="com.kan.lannacooking.MainActivity"
+    android:background="@drawable/bg">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/menu_listView"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
 
 </RelativeLayout>
